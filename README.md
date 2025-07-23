@@ -52,30 +52,6 @@ Incident timeline, severity assessment, mitigation, and recovery notes.
 ✅ Delivered clear documentation for stakeholder and technical audiences
 
 ---
-
-## ⚙️ Setup
-
-Install dependencies (if required):
-
-```bash
-pip install -r requirements.txt
-
----
-shields-up-cybersecurity-response/
-│
-├── ransomware_alert_analysis.py
-├── recovery_tools/
-│   └── file_decryptor_sim.py
-├── cisa_alerts/
-│   └── alert_sample.json
-├── stakeholder_emails/
-│   ├── alert_email_template.txt
-│   └── critical_alert_advisory.txt
-├── docs/
-│   └── incident_report.md
-└── README.md
-```
----
 <img width="752" height="493" alt="Screenshot of simulated ransomware response" src="https://github.com/user-attachments/assets/80d31f0e-9976-4dc8-ae7e-cf05751c4077" />
 
 ---
