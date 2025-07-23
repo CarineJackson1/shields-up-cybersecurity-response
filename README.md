@@ -1,5 +1,8 @@
 # 🛡️ Shields Up: Cybersecurity Incident Response Simulation
 
+#Cybersecurity #IncidentResponse #ThreatDetection #CyberInvestigation #InfoSec #CyberAttack #BreachResponse #SecurityAnalysis #DigitalForensics #SecurityOperations #SOC #CyberSecurityReporting
+
+
 **Role:** Information Security Analyst
 **Scenario:** Simulated ransomware attack on AIG using CISA alerts and stakeholder communication
 **Skills:** Python, CISA threat analysis, stakeholder response, incident handling
