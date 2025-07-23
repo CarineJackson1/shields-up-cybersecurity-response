@@ -87,4 +87,4 @@ shields-up-cybersecurity-response/
 > This advisory email notifies infrastructure owners of an active ransomware threat, referencing CISA/FBI/NSA alerts and suggesting mitigation steps (e.g., MFA, patching, RDP lockdown).
 
 Preview:
-
+[View full advisory email »](stakeholder_emails/critical_alert_advisory.txt)
