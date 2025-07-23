@@ -64,3 +64,7 @@ shields-up-cybersecurity-response/
 ├── docs/incident_report.md
 └── README.md
 ```
+---
+<img width="752" height="493" alt="Screenshot 2025-07-22 at 22 21 28" src="https://github.com/user-attachments/assets/80d31f0e-9976-4dc8-ae7e-cf05751c4077" />
+
+
