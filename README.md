@@ -8,7 +8,7 @@
 
 ## 📚 Project Overview
 
-In this cybersecurity simulation, I responded to a ransomware attack on AIG by analyzing threat intelligence alerts from the Cybersecurity & Infrastructure Security Agency (CISA) in collaboration with the FBI and NSA.
+In this cybersecurity simulation, I responded to a ransomware attack on AIG by analyzing threat intelligence alerts from the Cybersecurity & Infrastructure Security Agency (CISA), in collaboration with the FBI and NSA.
 
 I developed tools to:
 - Parse & interpret CISA JSON threat alerts
@@ -35,7 +35,9 @@ Parses CISA alert JSON, identifies ransomware IOCs, and outputs a CSV report.
 Simulates decrypting a small set of compromised files.
 
 ### 3️⃣ `stakeholder_emails/`  
-Email templates used to communicate with stakeholders (HR, Legal, IT, Execs).
+Templates for communicating across departments during an incident, including:
+- 📨 `alert_email_template.txt`: General awareness message for internal users
+- 🚨 [`critical_alert_advisory.txt`](stakeholder_emails/critical_alert_advisory.txt): Urgent advisory sent to the infrastructure owner during a ransomware event
 
 ### 4️⃣ `incident_report.md`  
 Incident timeline, severity assessment, mitigation, and recovery notes.
@@ -51,20 +53,38 @@ Incident timeline, severity assessment, mitigation, and recovery notes.
 
 ---
 
-## 📂 File Structure
+## ⚙️ Setup
+
+Install dependencies (if required):
 
 ```bash
+pip install -r requirements.txt
+
+---
 shields-up-cybersecurity-response/
 │
 ├── ransomware_alert_analysis.py
-├── recovery_tools/file_decryptor_sim.py
-├── cisa_alerts/alert_sample.json
+├── recovery_tools/
+│   └── file_decryptor_sim.py
+├── cisa_alerts/
+│   └── alert_sample.json
 ├── stakeholder_emails/
-│   └── alert_email_template.txt
-├── docs/incident_report.md
+│   ├── alert_email_template.txt
+│   └── critical_alert_advisory.txt
+├── docs/
+│   └── incident_report.md
 └── README.md
 ```
 ---
-<img width="752" height="493" alt="Screenshot 2025-07-22 at 22 21 28" src="https://github.com/user-attachments/assets/80d31f0e-9976-4dc8-ae7e-cf05751c4077" />
+<img width="752" height="493" alt="Screenshot of simulated ransomware response" src="https://github.com/user-attachments/assets/80d31f0e-9976-4dc8-ae7e-cf05751c4077" />
 
+---
+
+## 📧 Sample Stakeholder Communication
+
+### 🚨 `critical_alert_advisory.txt`
+
+> This advisory email notifies infrastructure owners of an active ransomware threat, referencing CISA/FBI/NSA alerts and suggesting mitigation steps (e.g., MFA, patching, RDP lockdown).
+
+Preview:
 
